@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pantalla_Inicio</string>
+    <string name="Boton_comenzar">COMENZAR!</string>
+    <string name="Titulo">RutaCan</string>
+    <string name="SelecIsla">SELECCIONE UNA DE LAS ISLAS</string>
+
+</resources>
