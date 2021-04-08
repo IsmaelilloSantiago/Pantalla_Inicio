@@ -10,12 +10,12 @@
     <Button
         android:id="@+id/button"
         android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_height="75dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:layout_marginBottom="75dp"
+        android:layout_marginBottom="16dp"
 
         android:text="@string/Boton_comenzar"
         app:backgroundTint="#4B3535"
@@ -25,22 +25,25 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="344dp"
-        android:layout_height="420dp"
+        android:layout_width="196dp"
+        android:layout_height="253dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tirulo"
+        app:layout_constraintVertical_bias="0.371"
         app:srcCompat="@drawable/caminatasjeje" />
 
     <TextView
         android:id="@+id/tirulo"
         android:layout_width="238dp"
-        android:layout_height="85dp"
+        android:layout_height="67dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="32dp"
