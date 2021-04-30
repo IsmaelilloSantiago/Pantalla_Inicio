@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
+// activity de Scroll de fotos de islas
 public class MainActivity extends AppCompatActivity {
     private Button boton_comenzar;
     private TextView titulo;
